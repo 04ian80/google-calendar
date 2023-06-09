@@ -6,13 +6,15 @@ import EventDetailPage from './pages/EventDetailPage';
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.BASE_URL}>
-      <Routes>
-        <Route path='/calendar' element={<Main />} />
-        <Route path='/events/new' element={<EventPostPage />} />
-        <Route path='/events/:eventId' element={<EventDetailPage />} />
-      </Routes>
-    </BrowserRouter>
+    <div className='App'>
+      <BrowserRouter basename={process.env.BASE_URL}>
+        <Routes>
+          <Route path='/calendar' element={<Main />} />
+          <Route path='/events/new' element={<EventPostPage />} />
+          <Route path='/events/:eventId' element={<EventDetailPage />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 
