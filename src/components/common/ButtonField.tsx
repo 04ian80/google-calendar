@@ -1,7 +1,7 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
 
-import { colors } from '../../lib/styles/colors';
+import { colors } from '../../lib/styles/styles';
 import { MouseEventType } from '../../lib/types';
 
 type ButtonFieldType = {
