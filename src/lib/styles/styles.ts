@@ -8,3 +8,7 @@ export const colors = {
   mainGreen: '#34A853',
   mainYellow: '#FBBC05',
 };
+
+export const styles = {
+  thHeight: '25px',
+};

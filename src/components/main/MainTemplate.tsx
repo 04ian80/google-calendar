@@ -11,4 +11,8 @@ const MainTemplate = ({ children }: MainTemplateType) => {
 
 export default MainTemplate;
 
-const Container = styled.div``;
+const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+`;
